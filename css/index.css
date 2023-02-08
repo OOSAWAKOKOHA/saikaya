@@ -1,0 +1,101 @@
+main {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: "Kiwi Maru", Arial, sans-serif;
+  font-weight: bold;
+  color: #434343;
+}
+main .content {
+  padding-top: 80px;
+  font-size: 3rem;
+  line-height: 60px;
+}
+main .content p {
+  font-weight: 500;
+}
+main .content p:last-child {
+  text-align: right;
+}
+main .losFl {
+  margin-top: 150px;
+  background: url("../img/img_losFl.png") right bottom/500px 341px no-repeat;
+}
+main .losFl .losTxt h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+main .losFl .losTxt p {
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+  font-size: 2rem;
+  line-height: 60px;
+}
+main .shopFl {
+  margin-top: 150px;
+  background: url("../img/img_shopFl.png") left bottom/500px 341px no-repeat;
+}
+main .shopFl .shopTxt {
+  text-align: right;
+}
+main .shopFl .shopTxt h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+main .shopFl .shopTxt p {
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+  font-size: 2rem;
+  line-height: 60px;
+}
+main .page {
+  margin-top: 150px;
+  text-align: center;
+}
+main .page h3 {
+  font-size: 4rem;
+  padding-bottom: 50px;
+}
+main .page p {
+  font-size: 2rem;
+  line-height: 60px;
+  padding-bottom: 30px;
+}
+main .page p:last-child a {
+  padding: 20px 30px;
+  border: dotted 3px #333333;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+main .page p:last-child a:link, main .page p:last-child a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+main .page p:last-child a:hover {
+  background-color: #CCD195;
+  transform: perspective(100px) translateZ(-20px);
+}
+main .storeInfo {
+  margin-top: 150px;
+  display: flex;
+}
+main .storeInfo .map {
+  padding-right: 40px;
+  padding-left: 75px;
+}
+main .storeInfo .infoTxt {
+  font-size: 1.6rem;
+  text-align: left;
+  line-height: 60px;
+  padding-left: 40px;
+  padding-top: 60px;
+  border-left: dotted 5px #333333;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 80px;
+}

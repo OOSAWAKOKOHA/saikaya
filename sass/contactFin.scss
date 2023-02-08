@@ -1,0 +1,15 @@
+@use "_vers" as color;
+
+main{
+  text-align: center;
+  h2{
+    font-size: 2.5rem;
+    padding: 60px;
+  }
+
+  p{
+    font-size: 1.6rem;
+    line-height: 40px;
+    padding-bottom: 30px;
+  }
+}

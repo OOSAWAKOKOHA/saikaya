@@ -1,0 +1,126 @@
+
+main{
+  // border: solid 1px tomato;
+  width: 1000px;
+  margin: 0 auto;
+  font-family: 'Kiwi Maru', Arial, sans-serif;
+  font-weight: bold;
+  color: #434343;
+  .content{
+    padding-top: 80px;
+    font-size: 3rem;
+    line-height: 60px;
+    p{
+      font-weight: 500;
+
+      &:last-child{
+        text-align: right;
+      }
+    }
+  }
+
+
+  .losFl{
+    margin-top: 150px;
+    background:
+    // linear-gradient(to left, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.5) 100%),
+    url("../img/img_losFl.png") right bottom/500px 341px no-repeat;  
+    .losTxt{
+      // transform: translateX(-50px);
+      h2{
+        font-size: 4rem;
+        font-weight: bolder;
+      }
+      p{
+        display: inline-block;
+        padding: 20px;
+        margin: 0;
+        font-size: 2rem;
+        line-height: 60px;
+        // background-color: rgba(255,255,255,0.5);
+        // border-radius: 30px;
+      }
+    }
+  }
+
+  .shopFl{
+    margin-top: 150px;
+    background:
+    // linear-gradient(to left, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.5) 100%),
+    url("../img/img_shopFl.png") left bottom/500px 341px no-repeat;  
+    .shopTxt{
+      text-align: right;
+      // transform: translateX(-50px);
+      h2{
+        font-size: 4rem;
+        font-weight: bolder;
+      }
+      p{
+        display: inline-block;
+        padding: 20px;
+        margin: 0;
+        font-size: 2rem;
+        line-height: 60px;
+        // background-color: rgba(255,255,255,0.5);
+        // border-radius: 30px;
+      }
+    }
+  }
+
+  .page{
+    margin-top: 150px;
+    text-align: center;
+    h3{
+      font-size: 4rem;
+      padding-bottom: 50px;
+    }
+    p{
+      font-size: 2rem;
+      line-height: 60px;
+      padding-bottom: 30px;
+      &:last-child{
+        a{
+          padding: 20px 30px;
+          border: dotted 3px #333333;
+          border-radius: 40px;
+          transition: 0.3s;
+          &:link,&:visited{
+            text-decoration: none;
+            color: #333333;
+          }
+          &:hover{
+            background-color: #CCD195;
+            transform:  perspective(100px) translateZ(-20px);
+          }
+        }
+      }
+    }
+  }
+
+  .storeInfo{
+    margin-top: 150px;
+    display: flex;
+    // justify-content: space-between;
+    .map{
+      padding-right: 40px;
+      padding-left: 75px;
+    }
+    .infoTxt{
+      // margin: 0 auto;
+      font-size: 1.6rem;
+      text-align: left;
+      line-height: 60px;
+      padding-left: 40px;
+      padding-top: 60px;
+      border-left: dotted 5px #333333;
+    }
+  }
+}
+
+
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 80px;
+}

@@ -1,0 +1,12 @@
+main {
+  text-align: center;
+}
+main h2 {
+  font-size: 2.5rem;
+  padding: 60px;
+}
+main p {
+  font-size: 1.6rem;
+  line-height: 40px;
+  padding-bottom: 30px;
+}

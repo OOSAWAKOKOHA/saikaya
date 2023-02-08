@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/ress.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/sellPage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+  <title>さいかや</title>
+</head>
+<body>
+
+  <header>
+    <div class="mainWrap">
+      <img src="./img/img_main_1.png" alt="" class="slideItem">
+      <img src="./img/img_main_2.png" alt="" class="slideItem">
+      <img src="./img/img_main_3.png" alt="" class="slideItem">
+      <img src="./img/img_main_4.png" alt="" class="slideItem">
+      <img src="./img/img_main_2.png" alt="" class="slideItem">
+      <section class="txt">
+        <h1>
+          <a href="index.html">
+            <img src="./img/img_logo_width.svg" alt="">
+          </a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="sellPage.html">買取ページ</a></li>
+            <li><a href="buyPage.html">販売ページ</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <div class="txt">
+      <p>
+        店舗に関するご質問・ご意見・ご要望等は下記フォームよりお願いいたします。
+        <br>
+        フラワー体験ワークショップに関しましては下の内容欄からお選びください。
+        <br>
+        折り返し、弊社担当者よりご連絡させていただきます。
+      </p>
+    </div>
+
+    <div class="in">
+      <form action="contact.html" method="get">
+        
+        <div class="inTxt">
+        <p>お名前：</p>
+        <input type="text" size="10" maxlength="5" required="required">
+        </div>
+        <div class="inTxt">
+        <p>メールアドレス：</p>
+        <input type="text" name="mail" value="" placeholder="">
+        </div>
+        <div class="inTxt">
+          <p>内容：</p>
+          <select>
+            <option selected>-------</option>
+            <option value="">ご質問</option>
+            <option value="">ご意見・ご要望</option>
+            <option value="">フラワーショップ</option>
+            <option value="">その他</option>
+          </select>
+        </div>
+        
+        <div class="inTxt textarea">
+          <p>本文：</p>
+            <textarea cols="20" rows="5" name="comment"></textarea>
+        </div>
+      </form>
+    </div>
+    
+    <button type="button">
+      <a href="contactfin.html">
+        送信する
+      </a>
+    </button>
+  </main>
+
+  <footer>
+    <small>
+      <p>copyright &copy; saikaya</p>
+    </small>
+  </footer>
+
+  <script src="./js/base.js"></script>
+</body>
+</html>

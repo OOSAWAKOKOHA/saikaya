@@ -1,0 +1,120 @@
+html {
+  font-size: 62.5%;
+  color: #333333;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Kiwi Maru", Arial, sans-serif;
+  font-style: normal;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: url("../img/img_backImg.png") center center/cover repeat;
+}
+
+.hidden {
+  display: none;
+}
+
+.mainWrap {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.mainWrap .slideItem {
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  opacity: 0;
+  transition: all 1s;
+}
+.mainWrap .slideItem:nth-of-type(1) {
+  opacity: 1;
+}
+.mainWrap .txt {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: end;
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+.mainWrap .txt h1 img {
+  width: auto;
+  height: 200px;
+}
+.mainWrap .txt ul {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin-bottom: 17px;
+}
+.mainWrap .txt ul li {
+  margin-left: 16px;
+  font-size: 1.8rem;
+  padding-right: 20px;
+  margin: 10px;
+}
+.mainWrap .txt ul li a {
+  background-color: rgba(255, 255, 255, 0);
+  border: dotted 4px #333333;
+  padding: 20px;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+.mainWrap .txt ul li a:link, .mainWrap .txt ul li a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+.mainWrap .txt ul li a:hover {
+  background-color: #CCD195;
+}
+
+main .txt {
+  font-size: 2rem;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  font-size: 1.6rem;
+  border-radius: 30px;
+  background-color: #CCD195;
+  transition: 0.3s;
+}
+button a:link, button a:visited {
+  color: #333333;
+  text-decoration: none;
+}
+button:hover {
+  color: #FFFFFF;
+  background-color: #868B4A;
+}
+
+p {
+  font-weight: 300;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-top: 80px;
+}
