@@ -1,3 +1,4 @@
+@use "_vers" as color;
 
 main{
   // border: solid 1px tomato;
@@ -63,6 +64,28 @@ main{
         line-height: 60px;
         // background-color: rgba(255,255,255,0.5);
         // border-radius: 30px;
+      }
+      .button{
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+        font-size: 1.6rem;
+        border-radius: 30px;
+        background-color: color.$btn;
+        transition: 0.3s;
+        text-align: center;
+        margin: 20px 100px 0 100px;
+        a{
+          margin: 0 auto;
+          &:link,&:visited{
+            color: color.$font;
+            text-decoration: none;
+          }
+        }
+        &:hover{
+          color: #FFFFFF;
+          background-color: color.$btnHover;
+        }
       }
     }
   }

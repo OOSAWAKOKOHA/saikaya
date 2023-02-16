@@ -49,6 +49,28 @@ main .shopFl .shopTxt p {
   font-size: 2rem;
   line-height: 60px;
 }
+main .shopFl .shopTxt .button {
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  font-size: 1.6rem;
+  border-radius: 30px;
+  background-color: #CCD195;
+  transition: 0.3s;
+  text-align: center;
+  margin: 20px 100px 0 100px;
+}
+main .shopFl .shopTxt .button a {
+  margin: 0 auto;
+}
+main .shopFl .shopTxt .button a:link, main .shopFl .shopTxt .button a:visited {
+  color: #333333;
+  text-decoration: none;
+}
+main .shopFl .shopTxt .button:hover {
+  color: #FFFFFF;
+  background-color: #868B4A;
+}
 main .page {
   margin-top: 150px;
   text-align: center;
